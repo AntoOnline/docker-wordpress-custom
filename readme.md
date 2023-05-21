@@ -1,12 +1,10 @@
-# Custom Docker Image for WordPress with WP-CLI
+# Custom Wordpress wp-config.php
 
-This Docker image provides a custom WordPress environment with the latest WordPress version and the WP-CLI (WordPress Command-Line Interface) tool.
+This wp-config.php allows you to user environment variables to configure your WordPress installation.
 
 ## Features
 
-- Based on the official WordPress Docker image
 - Custom `wp-config.php` file to read configuration from environment variables
-- WP-CLI tool for managing and interacting with WordPress via command-line commands
 
 ## Environment Variables
 
